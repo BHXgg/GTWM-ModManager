@@ -1,0 +1,3 @@
+[submodule "external/GTWM"]
+	path = external/GTWM
+	url = https://github.com/BHXgg/GTWM.git

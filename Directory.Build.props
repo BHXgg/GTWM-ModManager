@@ -1,0 +1,7 @@
+<Project>
+  <!-- Shared settings and game references come from the loader (git submodule). -->
+  <Import Project="$(MSBuildThisFileDirectory)external\GTWM\Directory.Build.props" />
+  <PropertyGroup>
+    <OutputPath>$(MSBuildThisFileDirectory)build\$(MSBuildProjectName)\</OutputPath>
+  </PropertyGroup>
+</Project>

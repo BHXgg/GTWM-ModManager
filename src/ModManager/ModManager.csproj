@@ -1,0 +1,10 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <AssemblyName>GTWM.ModManager</AssemblyName>
+    <RootNamespace>GTWM.ModManager</RootNamespace>
+    <Version>1.1.0</Version>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\external\GTWM\src\GTWModLoader\GTWModLoader.csproj" Private="false" />
+  </ItemGroup>
+</Project>
